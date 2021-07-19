@@ -306,16 +306,14 @@ $image-height: 47px;
 .layout.is-gutenboarding-login {
 	background-color: #fff;
 
-	.layout__primary {
-		padding-top: 10%;
-	}
-
 	.login__form-header {
 		@include onboarding-heading-text-mobile;
 		margin-bottom: 0;
+		text-align: left;
 
 		@include break-mobile {
 			@include onboarding-heading-text;
+			text-align: center;
 		}
 	}
 
@@ -364,7 +362,7 @@ $image-height: 47px;
 	}
 
 	.login__form-terms {
-		/* same as `.login__form .login__form-userdata label` */
+		/* Note: Same as `.login__form .login__form-userdata label` */
 		font-size: 0.875rem;
 	}
 
@@ -379,7 +377,7 @@ $image-height: 47px;
 
 	.login__form {
 		input, button {
-			/* same as `button.signup-form__submit, .signup-form__input.form-text-input` */
+			/* Note: Same as `button.signup-form__submit, .signup-form__input.form-text-input` */
 			border-radius: 4px; /* stylelint-disable-line */
 			height: 44px;
 			border: 1px solid var( --studio-gray-10 );
@@ -389,17 +387,38 @@ $image-height: 47px;
 
 	.wp-login__main {
 		max-width: 540px;
+	}
 
-		.wp-login__links,
+	.wp-login__links,
+	form {
+		max-width: 440px;
+		margin: 0 auto;
+	}
+
+	.layout__primary {
+		padding-top: 10%;
+
+		/* START - Note: Patches below needed to continue using the current Divider in the form.
+		We can remove when we refactor the Divider itself (or rethink current usage), and leave the default card styles intact. */
+		padding-left: 20px;
+		padding-right: 20px;
+
 		form {
-			max-width: 420px;
-			margin: 0 auto;
-		}
+			.card {
+				padding-left: 0;
+				padding-right: 0;
+				&.login__social {
+					border-top: 1px solid var( --studio-gray-10 );
+					padding-top: 30px;
+				}
+			}
 
-		form .card {
-			padding-left: 0;
-			padding-right: 0;
+			.login__divider {
+				padding-left: 23px;
+				padding-right: 23px;
+			}
 		}
+		/* END - Note */
 	}
 
 	.form-password-input .form-password-input__toggle-visibility {
