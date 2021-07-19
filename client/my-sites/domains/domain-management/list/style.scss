@@ -336,6 +336,11 @@
 }
 
 .wpcom-domain-item {
+	.wpcom-domain-item__description {
+		font-size: 0.875rem;
+		color: var( --studio-gray-60 );
+	}
+
 	.gridicon {
 		margin-left: 5px;
 	}
