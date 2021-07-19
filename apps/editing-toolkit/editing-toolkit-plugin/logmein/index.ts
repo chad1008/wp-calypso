@@ -18,7 +18,9 @@ export function logmeinUrl( url: string ): string {
 	}
 
 	// logmein doesn't work with http.
-	newurl.protocol = 'https:';
+	if ( newurl.protocol !== 'https:' ) {
+		return url;
+	}
 
 	const permalink = select( 'core/editor' ).getPermalink();
 	const permaurl = new URL( String( permalink ), INVALID_URL );

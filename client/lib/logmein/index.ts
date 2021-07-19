@@ -47,6 +47,11 @@ export function logmeinUrl( url: string, redirectTo = '' ): string {
 		return url;
 	}
 
+	// logmein doesn't work with http.
+	if ( newurl.protocol !== 'https:' ) {
+		return url;
+	}
+
 	const sites = Object.values( getSitesItems( reduxStore.getState() ) );
 
 	// We only want to logmein into valid sites that belong to the user (for now that is mapped simple sites)
@@ -58,9 +63,6 @@ export function logmeinUrl( url: string, redirectTo = '' ): string {
 	if ( ! isValid ) {
 		return url;
 	}
-
-	// logmein doesn't work with http.
-	newurl.protocol = 'https:';
 
 	// Set the param
 	newurl.searchParams.set( 'logmein', 'direct' );
