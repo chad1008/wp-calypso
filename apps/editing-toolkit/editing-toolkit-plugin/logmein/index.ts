@@ -1,3 +1,8 @@
+/**
+ * External dependencies
+ */
+import { select } from '@wordpress/data';
+
 // Used as placeholder / default domain to detect when we're looking at a relative url,
 // Note: also prevents exceptions from being raised
 const INVALID_URL = `https://__domain__.invalid`;
@@ -15,6 +20,12 @@ export function logmeinUrl( url: string ): string {
 	// logmein doesn't work with http.
 	newurl.protocol = 'https:';
 
+	const permalink = select( 'core/editor' ).getPermalink();
+	const permaurl = new URL( String( permalink ), INVALID_URL );
+	if ( permaurl.origin === INVALID_URL || newurl.host !== permaurl.host ) {
+		return url;
+	}
+
 	// Set the param
 	newurl.searchParams.set( 'logmein', 'direct' );
 
@@ -22,13 +33,19 @@ export function logmeinUrl( url: string ): string {
 }
 
 export function attachLogmein(): void {
-	document.addEventListener( 'click', logmeinOnClick, false ); // left click, ctrl+click, focus+enter, touch click
-	document.addEventListener( 'auxclick', logmeinOnAuxClick, false ); // mouse middle
+	document.addEventListener( 'click', logmeinOnLeftClick, true ); // left click only, need to capture for "View Post" snackbars which call preventDefault
+	document.addEventListener( 'click', logmeinOnClick, false ); // left click (not), ctrl+click, focus+enter, touch click
 	document.addEventListener( 'contextmenu', logmeinOnRightClick, false ); // right click
+	document.addEventListener( 'auxclick', logmeinOnAuxClick, false ); // mouse middle
 }
 
 const seen: Record< Host, boolean > = {};
 export function logmeinOnClick( event: MouseEvent ): void {
+	// Left click handled by logmeinOnLeftClick capturing version
+	if ( event.button === 0 ) {
+		return;
+	}
+
 	const link = ( event.target as HTMLElement ).closest( 'a' );
 
 	if ( link && link.href ) {
@@ -60,6 +77,14 @@ export function logmeinOnAuxClick( event: MouseEvent ): void {
 
 	// Middle click (auxclick) events should follow the same behavior as left click
 	logmeinOnClick( event );
+}
+
+export function logmeinOnLeftClick( event: MouseEvent ): void {
+	if ( event.button !== 0 ) {
+		return;
+	}
+
+	logmeinOnRightClick( event );
 }
 
 attachLogmein();
