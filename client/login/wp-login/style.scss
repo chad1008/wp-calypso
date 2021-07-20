@@ -310,10 +310,12 @@ $image-height: 47px;
 		@include onboarding-heading-text-mobile;
 		margin-bottom: 0;
 		text-align: left;
+		width: 60%;
 
 		@include break-mobile {
 			@include onboarding-heading-text;
 			text-align: center;
+			width: 100%;
 		}
 	}
 
@@ -329,7 +331,6 @@ $image-height: 47px;
 		color: #fff;
 		min-width: 100%;
 		text-align: center;
-		height: 42px;
 		display: block;
 		margin: 13px auto;
 		float: none;
@@ -352,44 +353,32 @@ $image-height: 47px;
 		}
 	}
 
-	.two-factor-authentication__verification-code-form > p,
-	.login__form .login__form-userdata label,
-	.login__form-terms,
-	.login__social-tos,
-	.login__form-terms a,
-	.login__social-tos a {
-		color: var( --studio-gray-40 );
+	.login__form input,
+	.login__form button,
+	.wp-login__links > a:first-of-type {
+		/* Note: Same as `button.signup-form__submit, .signup-form__input.form-text-input` */
+		border-radius: 4px; /* stylelint-disable-line */
+		border: 1px solid var( --studio-gray-10 );
+		font-size: $font-body-small;
 	}
 
-	.login__form-terms {
-		/* Note: Same as `.login__form .login__form-userdata label` */
-		font-size: 0.875rem;
+	.login__form input,
+	.login__form button,
+	.wp-login__links > a {
+		height: 44px;
 	}
 
-	.login__form-terms,
-	.login__social-tos {
-		text-align: left;
-		a {
-			text-decoration: underline;
-		}
+	.wp-login__links > a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
-	.login__form-terms {
-		margin-top: 16px;
-	}
-
-	.login__social-tos {
-		margin-top: 24px;
-	}
-
-	.login__form {
-		input, button {
-			/* Note: Same as `button.signup-form__submit, .signup-form__input.form-text-input` */
-			border-radius: 4px; /* stylelint-disable-line */
-			height: 44px;
-			border: 1px solid var( --studio-gray-10 );
-			font-size: $font-body-small;
-		}
+	.wp-login__links a:hover,
+	.wp-login__links a:active,
+	.wp-login__links button:hover,
+	.wp-login__links button:active {
+		color: #00a0d2;
 	}
 
 	.wp-login__main {
@@ -400,6 +389,10 @@ $image-height: 47px;
 	form {
 		max-width: 440px;
 		margin: 0 auto;
+	}
+
+	.wp-login__links {
+		margin-top: 30px;
 	}
 
 	.layout__primary {
@@ -432,13 +425,6 @@ $image-height: 47px;
 		top: 17px;
 	}
 
-	.wp-login__links a:hover,
-	.wp-login__links a:active,
-	.wp-login__links button:hover,
-	.wp-login__links button:active {
-		color: #00a0d2;
-	}
-
 	.login__social-buttons {
 		display: flex;
 		align-items: center;
@@ -466,5 +452,35 @@ $image-height: 47px;
 			padding: 12px;
 			border-radius: 24px; /* stylelint-disable-line scales/radii */
 		}
+	}
+
+	.two-factor-authentication__verification-code-form > p,
+	.login__form .login__form-userdata label,
+	.login__form-terms,
+	.login__social-tos,
+	.login__form-terms a,
+	.login__social-tos a {
+		color: var( --studio-gray-40 );
+	}
+
+	.login__form-terms {
+		/* Note: Same as `.login__form .login__form-userdata label` */
+		font-size: 0.875rem;
+	}
+
+	.login__form-terms,
+	.login__social-tos {
+		text-align: left;
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	.login__form-terms {
+		margin-top: 16px;
+	}
+
+	.login__social-tos {
+		margin-top: 24px;
 	}
 }
