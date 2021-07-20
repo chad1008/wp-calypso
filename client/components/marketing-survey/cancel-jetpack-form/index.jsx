@@ -12,6 +12,7 @@ import * as steps from './steps';
 import { Dialog } from '@automattic/components';
 import nextStep from '../cancel-purchase-form/next-step';
 import previousStep from '../cancel-purchase-form/previous-step';
+import JetpackBenefits from 'calypso/blocks/jetpack-benefits';
 
 class CancelJetpackForm extends React.Component {
 	// prop types
@@ -32,11 +33,7 @@ class CancelJetpackForm extends React.Component {
 	 */
 	getAvailableSurveySteps() {
 		// this will vary based on the user data/ product
-		return [
-			steps.FEATURES_LOST_STEP,
-			steps.CANCELLATION_REASON_STEP,
-			steps.PRODUCT_CANCELLED_STEP,
-		];
+		return [ steps.FEATURES_LOST_STEP, steps.CANCELLATION_REASON_STEP ];
 	}
 
 	/**
@@ -106,6 +103,7 @@ class CancelJetpackForm extends React.Component {
 	 * @returns current step {string|null}
 	 */
 	renderCurrentStep() {
+		const { selectedSite } = this.props;
 		// show steps for JP disconnection survey and offer
 
 		// Step 1: what will be lost by cancelling
@@ -115,7 +113,7 @@ class CancelJetpackForm extends React.Component {
 
 			// information needs to be collected about the Jetpack site to show current "benefits"
 			// load once into current state when this module is activated? - the same data would be shown for a disconnection
-			return 'Features Lost';
+			return <JetpackBenefits siteId={ selectedSite.ID } />;
 		}
 
 		// Step 2: Survey Question - where will this get sent?
@@ -132,11 +130,6 @@ class CancelJetpackForm extends React.Component {
 		// Step 4: Discount Confirmation ( Conditional - only if discount is accepted )
 		if ( steps.OFFER_APPLIED_STEP === this.state.cancellationStep ) {
 			return 'Discount Applied';
-		}
-
-		// Step 5: Cancellation Confirmation ( Conditional - only if plan is actually cancelled )
-		if ( steps.PRODUCT_CANCELLED_STEP === this.state.cancellationStep ) {
-			return 'Product Cancelled';
 		}
 
 		return null;
