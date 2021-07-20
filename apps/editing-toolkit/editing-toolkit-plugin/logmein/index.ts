@@ -1,4 +1,7 @@
 /**
+ * global wpcomLogmein
+ */
+/**
  * External dependencies
  */
 import { select } from '@wordpress/data';
@@ -9,7 +12,17 @@ const INVALID_URL = `https://__domain__.invalid`;
 
 type Host = string;
 
+type LogmeinData = {
+	IS_WPCOM: string;
+};
+declare let wpcomLogmein: LogmeinData;
+
 export function logmeinUrl( url: string ): string {
+	// Logmein currently only works for wpcom domains
+	if ( wpcomLogmein?.IS_WPCOM !== 'IS_WPCOM' ) {
+		return url;
+	}
+
 	const newurl = new URL( String( url ), INVALID_URL );
 
 	// Ignore and passthrough invalid or /relative/urls that have no host or protocol specified
@@ -22,9 +35,20 @@ export function logmeinUrl( url: string ): string {
 		return url;
 	}
 
+	// Only mapped domains need logmein, skip rewrite for wpcom subdomains
+	if ( newurl.host.match( /https:\/\/[^.]*\.wordpress.com/ ) ) {
+		return url;
+	}
+
 	const permalink = select( 'core/editor' ).getPermalink();
 	const permaurl = new URL( String( permalink ), INVALID_URL );
-	if ( permaurl.origin === INVALID_URL || newurl.host !== permaurl.host ) {
+	// Fallback on an invalid permalink
+	if ( permaurl.origin === INVALID_URL ) {
+		return url;
+	}
+
+	// Fallback if the url we're clicking on isn't pointing to our site that needs logging into
+	if ( permaurl.host !== newurl.host ) {
 		return url;
 	}
 

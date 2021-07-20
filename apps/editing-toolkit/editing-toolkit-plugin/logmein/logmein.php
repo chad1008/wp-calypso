@@ -30,4 +30,11 @@ function logmein_enqueue() {
 		$version,
 		true
 	);
+	wp_localize_script(
+		'wpcom-logmein',
+		'wpcomLogmein',
+		array(
+			'IS_WPCOM' => ( defined( 'IS_WPCOM' ) && IS_WPCOM ) ? 'IS_WPCOM' : '',
+		)
+	);
 }
