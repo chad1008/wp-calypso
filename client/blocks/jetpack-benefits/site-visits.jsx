@@ -12,6 +12,20 @@ import {
 /**
  * Internal Dependencies
  */
+import memoizeLast from 'calypso/lib/memoize-last';
+import moment from 'moment';
+
+const memoizedQuery = memoizeLast( ( period, unit, quantity, endOf ) => ( {
+	period,
+	unit: unit,
+	quantity: quantity,
+	date: endOf,
+} ) );
+
+const today = moment().locale( 'en' );
+const statType = 'statsVisits';
+const period = 'year';
+const query = memoizedQuery( period, 'month', 12, today.format( 'YYYY-MM-DD' ) );
 
 /**
  * Show some basic site stats to illustrate the benefits of Jetpack
@@ -31,7 +45,7 @@ class JetpackBenefitsSiteVisits extends React.Component {
 	}
 
 	render() {
-		const { statType, siteId, query } = this.props;
+		const { siteId } = this.props;
 
 		// load select stats for this site (primarily visitor count)
 		// query the site stats here
@@ -42,7 +56,7 @@ class JetpackBenefitsSiteVisits extends React.Component {
 					<QuerySiteStats siteId={ siteId } statType={ statType } query={ query } />
 				) }
 
-				<div className="card collapse">
+				<div className="jetpack-benefits__card card">
 					<b>Site Stats</b>
 					<p>{ this.showTotalSiteVisits() }</p>
 				</div>
@@ -51,7 +65,7 @@ class JetpackBenefitsSiteVisits extends React.Component {
 	}
 }
 
-export default connect( ( state, { siteId, statType, query } ) => {
+export default connect( ( state, { siteId } ) => {
 	return {
 		requesting: isRequestingSiteStatsForQuery( state, siteId, statType, query ),
 		data: getSiteStatsNormalizedData( state, siteId, statType, query ),

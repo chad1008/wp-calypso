@@ -103,7 +103,7 @@ class CancelJetpackForm extends React.Component {
 	 * @returns current step {string|null}
 	 */
 	renderCurrentStep() {
-		const { selectedSite } = this.props;
+		const { selectedSite, purchase } = this.props;
 		// show steps for JP disconnection survey and offer
 
 		// Step 1: what will be lost by cancelling
@@ -113,12 +113,14 @@ class CancelJetpackForm extends React.Component {
 
 			// information needs to be collected about the Jetpack site to show current "benefits"
 			// load once into current state when this module is activated? - the same data would be shown for a disconnection
-			return <JetpackBenefits siteId={ selectedSite.ID } />;
+			return <JetpackBenefits siteId={ selectedSite.ID } purchase={ purchase } />;
 		}
 
 		// Step 2: Survey Question - where will this get sent?
 		if ( steps.CANCELLATION_REASON_STEP === this.state.cancellationStep ) {
 			// ask for brief feedback on why the user is cancelling the plan
+			// follow similar pattern used in the Jetpack disconnection flow
+			// make sure the user has the ability to skip the question
 			return 'Survey Question';
 		}
 

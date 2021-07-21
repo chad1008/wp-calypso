@@ -1,0 +1,20 @@
+.card.jetpack-benefits__card {
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 0 8px #dddddd;
+	background-color: #ffffff;
+	width: 800px;
+	max-width: 100%;
+}
+
+.jetpack-benefits__card-summary {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.jetpack-benefits__card-headline {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-right: 1.5rem;
+}

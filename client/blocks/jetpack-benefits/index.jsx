@@ -3,67 +3,126 @@
  */
 import React from 'react';
 import { connect } from 'react-redux';
-import moment from 'moment';
 
 /**
  * Internal Dependencies
  */
 import { localize } from 'i18n-calypso';
-import { getPlanClass } from '@automattic/calypso-products';
+import {
+	getPlanClass,
+	isJetpackScan,
+	isJetpackBackupSlug,
+	isCompletePlan,
+	isPremiumPlan,
+	isSecurityDailyPlan,
+	isSecurityRealTimePlan,
+	isPersonalPlan,
+	isBusinessPlan,
+	isJetpackSearch,
+	isJetpackAntiSpam,
+	isJetpackPlanSlug,
+} from '@automattic/calypso-products';
 import { getSiteSlug, getSiteTitle, getSitePlanSlug } from 'calypso/state/sites/selectors';
 import getRewindState from 'calypso/state/selectors/get-rewind-state';
 import getSiteScanState from 'calypso/state/selectors/get-site-scan-state';
 import JetpackBenefitsSiteVisits from 'calypso/blocks/jetpack-benefits/site-visits';
-import memoizeLast from 'calypso/lib/memoize-last';
 import JetpackBenefitsScanHistory from 'calypso/blocks/jetpack-benefits/scan-history';
+import JetpackBenefitsSiteBackups from 'calypso/blocks/jetpack-benefits/site-backups';
+import QueryJetpackScan from 'calypso/components/data/query-jetpack-scan';
+import { getProductBySlug } from 'calypso/state/products-list/selectors';
 
-const memoizedQuery = memoizeLast( ( period, unit, quantity, endOf ) => ( {
-	period,
-	unit: unit,
-	quantity: quantity,
-	date: endOf,
-} ) );
+/**
+ * Style dependencies
+ */
+import './style.scss';
 
 class JetpackBenefits extends React.Component {
-	hasBackups() {
-		// TODO: check that the plan being cancelled includes backup (or is a standalone backup product)
+	siteHasBackups() {
 		return 'unavailable' !== this.props.rewindState?.state;
 	}
 
-	hasScan() {
-		// TODO: check that the plan being cancelled includes scan (or is a standalone scan product)
-		return 'unavailable' !== this.props.scanState?.state;
-	}
-
-	/**
-	 * Show number of site visits in the last year
-	 * @returns {JSX.Element}
-	 */
-	renderSiteVisits() {
-		const today = moment().locale( 'en' );
-		const period = 'year';
-		const query = memoizedQuery( period, 'month', 12, today.format( 'YYYY-MM-DD' ) );
-
+	productHasBackups() {
+		const { productSlug, planSlug } = this.props;
+		// check that this product is standalone backups or a plan that contains backups
 		return (
-			<JetpackBenefitsSiteVisits
-				siteId={ this.props.siteId }
-				query={ query }
-				statType="statsVisits"
-			/>
+			isJetpackBackupSlug( productSlug ) ||
+			isPersonalPlan( productSlug ) ||
+			isPremiumPlan( productSlug ) ||
+			( ! isPremiumPlan && !! planSlug && isBusinessPlan( planSlug ) ) || // Jetpack Professional
+			isSecurityDailyPlan( productSlug ) ||
+			isSecurityRealTimePlan( productSlug ) ||
+			isCompletePlan( productSlug )
 		);
 	}
 
-	/**
-	 * Show the number of backups/ amount of time this site has been backed up for
-	 */
-	renderSiteBackups() {
-		// there is not a great way to get the full count of backups from wpcom at the moment
-		// can get the 10 most recent from the /rewind/backups endpoint
-		// could show last successful/ next scheduled?
+	siteHasScan() {
+		return 'unavailable' !== this.props.scanState?.state;
 	}
 
-	renderSiteScanResults() {
-		return <JetpackBenefitsScanHistory siteId={ this.props.siteId } />;
+	productHasScan() {
+		const { productSlug } = this.props;
+		// check that this product is standalone scan or a plan that contains it
+		return (
+			isJetpackScan( productSlug ) ||
+			isCompletePlan( productSlug ) ||
+			isPremiumPlan( productSlug ) ||
+			isSecurityDailyPlan( productSlug ) ||
+			isSecurityRealTimePlan( productSlug )
+		);
+	}
+
+	productHasSearch() {
+		const { product, productSlug, planSlug } = this.props;
+		// check that this product is a standalone search product or a plan that contains it
+		return (
+			isJetpackSearch( product ) ||
+			isCompletePlan( productSlug ) ||
+			( ! isPremiumPlan && !! planSlug && isBusinessPlan( planSlug ) ) // Jetpack Professional
+		);
+	}
+
+	productHasAntiSpam() {
+		const { productSlug, planSlug } = this.props;
+		// check that this product is standalone anti-spam or one of the plans that contains it
+		return (
+			isJetpackAntiSpam( productSlug ) ||
+			isPersonalPlan( productSlug ) ||
+			isPremiumPlan( productSlug ) ||
+			( ! isPremiumPlan && !! planSlug && isBusinessPlan( planSlug ) ) || // Jetpack Professional
+			isSecurityDailyPlan( productSlug ) ||
+			isSecurityRealTimePlan( productSlug ) ||
+			isCompletePlan( productSlug )
+		);
+	}
+
+	renderSiteSearch() {
+		return (
+			<div className="jetpack-benefits__card card">
+				<div className="jetpack-benefits__card-summary">
+					<b className="jetpack-benefits__card-headline">Search</b>
+					<span>You will lose access to Jetpack's improved site search</span>
+				</div>
+			</div>
+		);
+	}
+
+	renderSiteAnitSpam() {
+		return (
+			<div className="jetpack-benefits__card card">
+				<div className="jetpack-benefits__card-summary">
+					<b className="jetpack-benefits__card-headline">Anti-spam</b>
+					<span>You will no longer have spam comment protection/ filtering.</span>
+				</div>
+			</div>
+		);
+	}
+
+	renderSiteActivity() {
+		return (
+			<div className="jetpack-benefits__card card">
+				<span>You will not be able to view your site's activity log any longer.</span>
+			</div>
+		);
 	}
 
 	/**
@@ -75,27 +134,49 @@ class JetpackBenefits extends React.Component {
 	}
 
 	render() {
+		const { product, productSlug, siteId } = this.props;
 		// determine what features a plan/ product has and show relevant messages
+
 		return (
 			<React.Fragment>
-				{ this.renderSiteVisits() }
-				{ this.hasBackups() && this.renderSiteBackups() }
-				{ /* site search - may not be a way to show # of searches served */ }
-				{ /* spam filtering stats - Undocumented.prototype may be the place to start here */ }
-				{ this.hasScan() && this.renderSiteScanResults() }
-				{ /* activity log stats - start with requestActivityLogs to get this information */ }
+				{ this.productHasScan() && <QueryJetpackScan siteId={ siteId } /> }
+				{
+					isJetpackPlanSlug( productSlug ) && (
+						<JetpackBenefitsSiteVisits siteId={ this.props.siteId } />
+					) // only makes sense to show visits/ stats for plans
+				}
+				{ this.siteHasBackups() && this.productHasBackups() && (
+					<JetpackBenefitsSiteBackups
+						siteId={ siteId }
+						isStandalone={ isJetpackBackupSlug( productSlug ) }
+					/>
+				) }
+				{ this.productHasSearch() && this.renderSiteSearch() }
+				{ this.productHasAntiSpam() && this.renderSiteAnitSpam() }
+				{ this.siteHasScan() && this.productHasScan() && (
+					<JetpackBenefitsScanHistory siteId={ siteId } isStandalone={ isJetpackScan( product ) } />
+				) }
+				{
+					/* activity log stats - start with requestActivityLogs to get this information, there is also an endpoint for /activity/counts that has no matching state components that could get set up */
+					isJetpackPlanSlug( productSlug ) && this.renderSiteActivity() // only makes sense to show activity for plans
+				}
 			</React.Fragment>
 		);
 	}
 }
 
-export default connect( ( state, { siteId } ) => {
+export default connect( ( state, { siteId, purchase } ) => {
 	const planSlug = getSitePlanSlug( state, siteId );
 	const planClass = planSlug ? getPlanClass( planSlug ) : 'is-free-plan';
+	const productSlug = purchase.productSlug;
+	const product = getProductBySlug( state, productSlug );
 
 	return {
 		siteId: siteId,
+		planSlug: planSlug,
 		plan: planClass,
+		product: product,
+		productSlug: productSlug,
 		rewindState: getRewindState( state, siteId ),
 		scanState: getSiteScanState( state, siteId ),
 		siteSlug: getSiteSlug( state, siteId ),
