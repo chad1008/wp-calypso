@@ -5,7 +5,7 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent, Fragment } from 'react';
 import { connect } from 'react-redux';
-import { compact, includes, omit, reduce, get, partial } from 'lodash';
+import { compact, includes, omit, reduce, get } from 'lodash';
 import { localize } from 'i18n-calypso';
 import config from '@automattic/calypso-config';
 
@@ -29,7 +29,7 @@ import {
 } from 'calypso/state/sites/selectors';
 import isSiteWpcomAtomic from 'calypso/state/selectors/is-site-wpcom-atomic';
 import areAllSitesSingleUser from 'calypso/state/selectors/are-all-sites-single-user';
-import { canCurrentUser as canCurrentUserStateSelector } from 'calypso/state/selectors/can-current-user';
+import canCurrentUserStateSelector from 'calypso/state/selectors/can-current-user';
 import { itemLinkMatches } from './utils';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';
 import isVipSite from 'calypso/state/selectors/is-vip-site';
@@ -270,7 +270,7 @@ export default connect(
 	( state, { siteId } ) => ( {
 		allSingleSites: areAllSitesSingleUser( state ),
 		// eslint-disable-next-line wpcalypso/redux-no-bound-selectors
-		canCurrentUser: partial( canCurrentUserStateSelector, state, siteId ),
+		canCurrentUser: ( capability ) => canCurrentUserStateSelector( state, siteId, capability ),
 		isJetpack: isJetpackSite( state, siteId ),
 		isSiteAtomic: isSiteWpcomAtomic( state, siteId ),
 		isSingleUser: isSingleUserSite( state, siteId ),

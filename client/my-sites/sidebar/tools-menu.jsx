@@ -5,7 +5,7 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { compact, includes, partial } from 'lodash';
+import { compact, includes } from 'lodash';
 import { localize } from 'i18n-calypso';
 
 /**
@@ -16,7 +16,7 @@ import config from '@automattic/calypso-config';
 import { bumpStat } from 'calypso/lib/analytics/mc';
 import compareProps from 'calypso/lib/compare-props';
 import { getSiteAdminUrl, getSiteSlug, isJetpackSite } from 'calypso/state/sites/selectors';
-import { canCurrentUser as canCurrentUserStateSelector } from 'calypso/state/selectors/can-current-user';
+import canCurrentUserStateSelector from 'calypso/state/selectors/can-current-user';
 import canCurrentUserManagePlugins from 'calypso/state/selectors/can-current-user-manage-plugins';
 import { itemLinkMatches } from './utils';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';
@@ -144,9 +144,8 @@ export default connect(
 	( state, { siteId } ) => ( {
 		canManagePlugins: canCurrentUserManagePlugins( state ),
 		// eslint-disable-next-line wpcalypso/redux-no-bound-selectors
-		canCurrentUser: partial( canCurrentUserStateSelector, state, siteId ),
+		canCurrentUser: ( capability ) => canCurrentUserStateSelector( state, siteId, capability ),
 		isJetpack: isJetpackSite( state, siteId ),
-		// eslint-disable-next-line wpcalypso/redux-no-bound-selectors
 		siteAdminUrl: getSiteAdminUrl( state, siteId ),
 		siteSlug: getSiteSlug( state, siteId ),
 		isSiteWPForTeams: isSiteWPForTeams( state, siteId ),
