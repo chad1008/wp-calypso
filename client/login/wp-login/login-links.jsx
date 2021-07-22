@@ -293,14 +293,10 @@ export class LoginLinks extends React.Component {
 			usernameOrEmail,
 		} = this.props;
 
-		const signupUrl = getSignupUrl(
-			query,
-			currentRoute,
-			oauth2Client,
-			locale,
-			pathname,
-			isGutenboarding
-		);
+		// use '?signup_url' if explicitly passed as URL query param
+		const signupUrl =
+			this.props.signupUrl ||
+			getSignupUrl( query, currentRoute, oauth2Client, locale, pathname, isGutenboarding );
 
 		if ( isJetpackCloudOAuth2Client( oauth2Client ) && '/log-in/authenticator' !== currentRoute ) {
 			return null;
