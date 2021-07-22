@@ -155,7 +155,7 @@ export default compose(
 		return {
 			currentRoute,
 			isJetpackLogin,
-			isWhiteguLogin,
+			isWhiteLogin,
 			isPopup,
 			isJetpackWooCommerceFlow,
 			isJetpackWooDnaFlow,
