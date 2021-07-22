@@ -59,6 +59,13 @@ open class PluginBaseBuild : Template({
 		bashNodeScript {
 			name = "Prepare environment"
 			scriptContent = """
+				# Merge the target branch first.
+				if [[ "%teamcity.build.branch.is_default%" != "true" ]] ; then
+					git fetch origin trunk
+					git checkout -b tc-temp-branch
+					git merge trunk
+				fi
+
 				# Update composer
 				composer install
 
