@@ -177,6 +177,8 @@ module.exports = {
 		},
 		{
 			files: [
+				'apps/editing-toolkit/**/*',
+				'client/my-sites/customer-home/**/*',
 				'client/sections-filter.js',
 				'client/sections-helper.js',
 				'client/sections-middleware.js',
@@ -203,8 +205,11 @@ module.exports = {
 				'packages/launch/**/*',
 				'packages/mocha-debug-reporter/**/*',
 				'packages/plans-grid/**/*',
+				'packages/shopping-cart/**/*',
 				'packages/spec-junit-reporter/**/*',
 				'packages/spec-xunit-reporter/**/*',
+				'packages/tree-select/**/*',
+				'packages/viewport/**/*',
 				'packages/wpcom-checkout/**/*',
 				'test/e2e/**/*',
 			],
