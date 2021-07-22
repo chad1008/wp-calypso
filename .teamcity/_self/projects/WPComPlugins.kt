@@ -47,7 +47,6 @@ object WPComPlugins : Project({
 	}
 })
 
-
 private object EditingToolkit : BuildType({
 	id("WPComPlugins_EditorToolKit")
 	name = "Editing ToolKit"
