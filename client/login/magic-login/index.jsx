@@ -75,6 +75,12 @@ class MagicLogin extends React.Component {
 		if ( emailAddress ) {
 			loginParameters.emailAddress = emailAddress;
 		}
+
+		const signupUrl = get( this.props, [ 'query', 'signup_url' ] );
+		if ( signupUrl ) {
+			loginParameters.signupUrl = signupUrl;
+		}
+
 		page( login( loginParameters ) );
 	};
 
@@ -91,6 +97,8 @@ class MagicLogin extends React.Component {
 			return null;
 		}
 
+		const signupUrl = get( this.props, [ 'query', 'signup_url' ] );
+
 		// The email address from the URL (if present) is added to the login
 		// parameters in this.onClickEnterPasswordInstead(). But it's left out
 		// here deliberately, to ensure that if someone copies this link to
@@ -99,6 +107,7 @@ class MagicLogin extends React.Component {
 			isJetpack: isJetpackLogin,
 			isGutenboarding: isGutenboardingLogin,
 			locale: locale,
+			...( signupUrl && { signupUrl } ),
 		};
 
 		return (

@@ -109,6 +109,7 @@ export class LoginLinks extends React.Component {
 		const loginParameters = {
 			locale: this.props.locale,
 			twoFactorAuthType: 'link',
+			signupUrl: this.props.query?.signup_url,
 		};
 
 		if ( this.props.currentRoute === '/log-in/jetpack' ) {
