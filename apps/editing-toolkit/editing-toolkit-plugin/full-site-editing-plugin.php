@@ -51,7 +51,7 @@ require_once __DIR__ . '/dotcom-fse/helpers.php';
 require_once __DIR__ . '/common/index.php';
 
 /**
- * Load dotcom-FSE.
+ * Load dotcom-FSE
  */
 function load_full_site_editing() {
 	// Bail if FSE should not be active on the site. We do not
