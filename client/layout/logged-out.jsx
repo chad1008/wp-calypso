@@ -35,7 +35,7 @@ import './style.scss';
 
 const LayoutLoggedOut = ( {
 	isJetpackLogin,
-	isGutenboardingLogin,
+	isWhiteLogin,
 	isPopup,
 	isJetpackWooCommerceFlow,
 	isJetpackWooDnaFlow,
@@ -66,7 +66,7 @@ const LayoutLoggedOut = ( {
 		'has-no-masterbar': masterbarIsHidden,
 		'is-jetpack-login': isJetpackLogin,
 		'is-jetpack-site': isJetpackCheckout,
-		'is-gutenboarding-login': isGutenboardingLogin,
+		'is-white-login': isWhiteLogin,
 		'is-popup': isPopup,
 		'is-jetpack-woocommerce-flow': isJetpackWooCommerceFlow,
 		'is-jetpack-woo-dna-flow': isJetpackWooDnaFlow,
@@ -143,9 +143,9 @@ export default compose(
 		const sectionName = currentSection?.name ?? null;
 		const sectionTitle = currentSection?.title ?? '';
 		const isJetpackLogin = startsWith( currentRoute, '/log-in/jetpack' );
-		const isGutenboardingLogin = startsWith( currentRoute, '/log-in/new' );
+		const isWhiteLogin = startsWith( currentRoute, '/log-in/new' );
 		const isJetpackWooDnaFlow = wooDnaConfig( getInitialQueryArguments( state ) ).isWooDnaFlow();
-		const noMasterbarForRoute = isJetpackLogin || isGutenboardingLogin || isJetpackWooDnaFlow;
+		const noMasterbarForRoute = isJetpackLogin || isWhiteLogin || isJetpackWooDnaFlow;
 		const isPopup = '1' === get( getCurrentQueryArguments( state ), 'is_popup' );
 		const noMasterbarForSection = [ 'signup', 'jetpack-connect' ].includes( sectionName );
 		const isJetpackWooCommerceFlow =
@@ -155,7 +155,7 @@ export default compose(
 		return {
 			currentRoute,
 			isJetpackLogin,
-			isGutenboardingLogin,
+			isWhiteguLogin,
 			isPopup,
 			isJetpackWooCommerceFlow,
 			isJetpackWooDnaFlow,

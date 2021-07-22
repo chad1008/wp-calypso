@@ -152,7 +152,7 @@ class MagicLogin extends React.Component {
 		return (
 			<Main
 				className={ classNames( 'magic-login', 'magic-login__request-link', {
-					'is-gutenboarding-login': this.props.isGutenboardingLogin,
+					'is-white-login': this.props.isGutenboardingLogin,
 				} ) }
 			>
 				{ this.props.isJetpackLogin && <JetpackHeader /> }
