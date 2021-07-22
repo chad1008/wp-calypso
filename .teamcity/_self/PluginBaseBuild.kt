@@ -67,6 +67,8 @@ open class PluginBaseBuild : Template({
 			scriptContent = """
 				# Merge the target branch first.
 				if [[ "%teamcity.build.branch.is_default%" != "true" ]] ; then
+					ssh-agent
+					ssh-add -l
 					git fetch origin trunk
 					git checkout -b tc-temp-branch
 					git merge trunk
