@@ -7,6 +7,7 @@ import { addLocaleToPath } from 'calypso/lib/i18n-utils';
 export function login( {
 	isJetpack = undefined,
 	isGutenboarding = undefined,
+	isReskinned = undefined,
 	locale = undefined,
 	redirectTo = undefined,
 	twoFactorAuthType = undefined,
@@ -34,7 +35,7 @@ export function login( {
 		url += '/social-connect';
 	} else if ( isJetpack ) {
 		url += '/jetpack';
-	} else if ( isGutenboarding ) {
+	} else if ( isGutenboarding || isReskinned ) {
 		url += '/new';
 	} else if ( useMagicLink ) {
 		url += '/link';
