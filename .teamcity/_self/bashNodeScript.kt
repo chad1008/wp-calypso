@@ -35,7 +35,7 @@ fun BuildSteps.bashNodeScript(init: ScriptBuildStep.() -> Unit): ScriptBuildStep
 	result.dockerImagePlatform = ScriptBuildStep.ImagePlatform.Linux
 	result.dockerPull = true
 	result.dockerImage = result.dockerImage ?: "%docker_image%"
-	result.dockerRunParameters = result.dockerRunParameters ?: "-u %env.UID%"
+	result.dockerRunParameters = result.dockerRunParameters ?: "-u %env.UID% -u %env.UID% -v \"${'$'}SSH_AUTH_SOCK:/tmp/ssh_auth_sock\" -e \"SSH_AUTH_SOCK=/tmp/ssh_auth_sock\""
 	step(result)
 	return result
 }
