@@ -1,0 +1,1112 @@
+➤ YN0000: Found 198 package(s) to process
+➤ YN0000: For a grand total of 8808 file(s) to validate
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "postcss") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prebuild-server") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "postbuild-server") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "postbuild-client-fallback") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prestart") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "poststart") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "poststart-jetpack-cloud-p") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prewhybundled") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prewhybundled:server") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/copy-production-modules.js:47:39: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/copy-production-modules.js:61:33: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/copy-production-modules.js:63:27: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/copy-production-modules.js:95:28: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/copy-production-modules.js:114:40: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/copy-production-modules.js:120:21: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/eslint-branch.js:12:35: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/generate-devdocs-search-index.js:32:16: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/install-gutenboarding-design-thumbnails-dependencies.js:48:16: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/install-if-no-packages.js:4:23: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/install-if-no-packages.js:5:15: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/pre-commit-hook.js:123:4: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/pre-commit-hook.js:132:13: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/pre-commit-hook.js:174:32: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/pre-commit-hook.js:186:32: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/bin/stacktrace-translate.js:16:23: Undeclared dependency on stacktrace-gps
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/test/build-tools/jest.config.js:9:3: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/test/client/jest.config.js:13:23: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/test/client/jest.config.js:18:3: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/test/server/jest.config.js:15:3: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: └ Completed in 1m 21s
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/client/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/webpack.config.desktop.js:82:25: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/webpack.config.js:250:37: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/webpack.config.js:399:32: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/webpack.config.js:400:32: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/webpack.config.node.js:132:52: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/me/memberships/main.jsx:13:1: Undeclared dependency on calyspo
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/state/selectors/get-store-referrers-by-date.js:10:1: Undeclared dependency on woocommerce
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/components/domains/register-domain-step/index.jsx:30:1: Undeclared dependency on @automattic/search
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/components/has-site-purchases-switch/test/index.jsx:14:1: Undeclared dependency on config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/components/screen-options-tab/test/index.js:15:1: Undeclared dependency on config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/my-sites/plugins/plugins-browser/index.jsx:16:1: Undeclared dependency on @automattic/search
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/jetpack-cloud/sections/settings/test/empty-content.jsx:15:1: Undeclared dependency on config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/landing/gutenboarding/onboarding-block/create-site-error/index.tsx:9:1: Undeclared dependency on history
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/jetpack-cloud/sections/settings/loading/test/index.jsx:14:1: Undeclared dependency on config
+➤ YN0000: │ Resolving isolated-block-editor@https://github.com/Automattic/isolated-block-editor.git#alpha-0 errored with Couldn't resolve "alpha-0" as either a commit, a tag, or a head
+➤ YN0000: └ Completed in 1m 57s
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/desktop/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/desktop/webpack.config.js:36:14: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: └ Completed in 9s 248ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/apps/editing-toolkit/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "posts-list-block") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "postbuild") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prebuild") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "predev") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/apps/editing-toolkit/editing-toolkit-plugin/whats-new/src/whats-new.js:13:1: Undeclared dependency on @automattic/whats-new
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/apps/editing-toolkit/editing-toolkit-plugin/wpcom-block-editor-nux/src/store.js:4:1: Undeclared dependency on a8c-fse-common-data-stores
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/apps/editing-toolkit/editing-toolkit-plugin/editor-site-launch/src/launch-button/index.ts:8:1: Undeclared dependency on a8c-fse-common-data-stores
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/apps/editing-toolkit/editing-toolkit-plugin/editor-site-launch/src/stores/index.ts:4:1: Undeclared dependency on a8c-fse-common-data-stores
+➤ YN0001: │ Error: Invalid property type: ArrayLiteralExpression
+    at buildJsonNode (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:167:19)
+    at async checkForUnmetPeerDependency (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:187:26)
+    at async processManifest (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:227:17)
+    at async processWorkspace (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:246:5)
+    at async /Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:313:29
+    at async StreamReport.startTimerPromise (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/node_modules/@yarnpkg/core/lib/StreamReport.js:219:20)
+    at async /Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:300:25
+    at async Function.start (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/node_modules/@yarnpkg/core/lib/StreamReport.js:132:13)
+    at async EntryCommand.execute (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:287:24)
+    at async EntryCommand.validateAndExecute (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/node_modules/clipanion/lib/advanced/Command.js:64:26)
+➤ YN0000: └ Completed in 0s 950ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/apps/notifications/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prebuild") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: └ Completed in 0s 981ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/apps/o2-blocks/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prebuild") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0001: │ Error: Invalid property type: ArrayLiteralExpression
+    at buildJsonNode (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:167:19)
+    at async checkForUnmetPeerDependency (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:187:26)
+    at async processManifest (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:227:17)
+    at async processWorkspace (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:246:5)
+    at async /Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:313:29
+    at async StreamReport.startTimerPromise (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/node_modules/@yarnpkg/core/lib/StreamReport.js:219:20)
+    at async /Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:300:25
+    at async Function.start (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/node_modules/@yarnpkg/core/lib/StreamReport.js:132:13)
+    at async EntryCommand.execute (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/lib/cli.js:287:24)
+    at async EntryCommand.validateAndExecute (/Users/sergio/Library/Caches/Yarn/v6/_npx/33271/lib/node_modules/@yarnpkg/doctor/node_modules/clipanion/lib/advanced/Command.js:64:26)
+➤ YN0000: └ Completed in 0s 408ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/apps/wpcom-block-editor/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prebuild") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: └ Completed in 7s 275ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/client/controller/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:6:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:7:1: Undeclared dependency on @automattic/i18n-utils
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.node.js:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:6:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:7:1: Undeclared dependency on react-query
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:12:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:13:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/index.web.js:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/shared.js:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/shared.js:9:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/shared.js:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/shared.js:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/shared.js:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/shared.js:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/ssr-setup-locale.js:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/ssr-setup-locale.js:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/ssr-setup-locale.js:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/ssr-setup-locale.js:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/controller/web-util.js:4:1: Undeclared dependency on react-dom
+➤ YN0000: └ Completed in 0s 345ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/client/login/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:4:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:6:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:11:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:16:1: Undeclared dependency on @automattic/calypso-url
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/controller.js:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.node.js:4:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.node.js:6:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.node.js:7:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:10:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/index.web.js:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/ssr.js:4:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/ssr.js:9:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-expired.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully-jetpack-connect.tsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:8:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:9:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:15:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/emailed-login-link-successfully.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:6:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form-jetpack-connect.tsx:32:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:6:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:9:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:17:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:19:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:36:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:40:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:41:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:42:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/handle-emailed-link-form.jsx:43:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:8:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:9:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:10:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:11:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:16:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:32:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:34:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/index.jsx:35:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:9:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:34:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:35:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/magic-login/request-login-email-form.jsx:36:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:4:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:7:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:9:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:14:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/index.jsx:36:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:4:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:9:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:14:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:24:1: Undeclared dependency on @automattic/calypso-url
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:32:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/login-links.jsx:33:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/private-site.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/private-site.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/private-site.jsx:11:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/login/wp-login/private-site.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: └ Completed in 0s 504ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/client/signup/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:4:1: Undeclared dependency on debug
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:6:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:12:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:28:1: Undeclared dependency on store
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:32:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:33:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:34:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:38:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:39:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:40:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:41:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:43:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:44:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:45:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/controller.js:46:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/index.node.js:4:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/index.web.js:4:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/index.web.js:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/index.web.js:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:4:1: Undeclared dependency on debug
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:5:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:6:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:7:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:22:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:27:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:29:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:34:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:35:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:41:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:42:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:43:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:44:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:45:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:46:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:47:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:48:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:54:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:55:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:56:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:57:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:58:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:59:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:60:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:61:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:62:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:63:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:64:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:65:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:66:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:89:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:90:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:91:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/main.jsx:92:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/storageUtils.js:4:1: Undeclared dependency on cookie
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/utils.js:4:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/utils.js:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/utils.js:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/utils.js:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/flows-pure.js:4:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/flows.js:4:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/flows.js:10:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/flows.js:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/flows.js:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/steps-pure.js:4:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/steps-pure.js:9:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/steps-pure.js:10:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/steps.js:5:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/steps.js:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/flow-progress-indicator/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/flow-progress-indicator/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/flow-progress-indicator/index.jsx:7:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:9:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:10:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:15:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/p2-processing-screen/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/p2-processing-screen/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/p2-step-wrapper/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/p2-step-wrapper/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/p2-step-wrapper/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/p2-step-wrapper/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/processing-screen/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/processing-screen/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/processing-screen/index.jsx:6:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/processing-screen/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/recaptcha/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/recaptcha/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/recaptcha/index.jsx:6:1: Undeclared dependency on @automattic/composite-checkout
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/recaptcha/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/recaptcha/index.jsx:12:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/reskinned-processing-screen/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/reskinned-processing-screen/index.jsx:5:1: Undeclared dependency on @wordpress/i18n
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/reskinned-processing-screen/index.jsx:6:1: Undeclared dependency on @wordpress/react-i18n
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/reskinned-processing-screen/index.jsx:7:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/signup-header/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/signup-header/index.jsx:6:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/signup-header/index.jsx:7:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/signup-header/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:4:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:6:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:7:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:9:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:10:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/site-mockup/index.jsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/step-wrapper/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/step-wrapper/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/step-wrapper/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/step-wrapper/index.jsx:7:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/step-wrapper/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/step-wrapper/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/test/flows.js:9:1: Undeclared dependency on sinon
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/test/flows.js:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/test/utils.js:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/index.jsx:10:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/index.jsx:5:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/index.jsx:6:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/index.jsx:7:1: Undeclared dependency on debug
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/index.jsx:6:1: Undeclared dependency on debug
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/index.jsx:12:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/config/test/index.js:4:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/test/index.jsx:4:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/test/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/test/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/navigation-link/test/index.jsx:21:21: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/test/index.jsx:4:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/test/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/submit-step-button/test/index.jsx:10:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:34:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:35:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:36:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:39:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:40:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:41:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:42:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:43:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:44:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:45:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:46:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/about/index.jsx:47:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-credentials/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:9:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-cloning/index.jsx:15:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-jetpack/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-ready/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:6:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-destination/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-complete/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-point/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/clone-start/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:9:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:15:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-confirm/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:13:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/creds-permission/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:8:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:9:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:32:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:37:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:38:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:39:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:40:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:41:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:42:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:43:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:44:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:45:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:46:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:47:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:48:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:49:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:50:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:51:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:52:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:53:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:54:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:55:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:56:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:57:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:58:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:60:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:61:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/index.jsx:62:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/domains/utils.js:4:1: Undeclared dependency on valid-url
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:8:1: Undeclared dependency on @automattic/design-picker
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/design-picker/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:12:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:7:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:15:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-preview/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/launch-site/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/launch-site/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/launch-site/index.jsx:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:12:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/import-url-onboarding/index.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:6:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:7:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:13:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-details/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:18:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/passwordless/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:8:1: Undeclared dependency on debug
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/p2-site/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:6:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:7:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:9:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:10:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:11:1: Undeclared dependency on qs
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:12:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:23:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:30:1: Undeclared dependency on @automattic/calypso-url
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:37:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/index.jsx:38:1: Undeclared dependency on @automattic/viewport
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:10:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/content.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/reader-landing/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:7:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:8:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:18:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/index.jsx:24:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rebrand-cities-welcome/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-were-backing/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-form-creds/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:14:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/rewind-migrate/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:8:1: Undeclared dependency on debug
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/choice.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/choice.jsx:10:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/domain-image.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/existing-site-image.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:5:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:7:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-or-domain/new-site-image.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/index.jsx:10:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/site-picker-submit.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/site-picker-submit.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/site-picker-submit.jsx:11:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/site-picker-submit.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/site-picker-submit.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:6:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:7:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:8:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:9:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:10:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:15:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/index.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:13:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-title/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:4:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:6:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:7:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:8:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:13:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:25:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:26:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:27:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/form.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-topic/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:5:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:13:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/form.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:5:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-type/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:7:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:8:1: Undeclared dependency on page
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:9:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:16:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:18:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:23:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/index.jsx:24:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/verticals.js:5:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/survey/verticals.js:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/test-step/index.jsx:4:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/test-step/index.jsx:9:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/test-step/index.jsx:10:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:13:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:15:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:16:1: Undeclared dependency on @automattic/components
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:17:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:18:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/signup-themes-list.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/signup-themes-list.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/signup-themes-list.jsx:6:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/signup-themes-list.jsx:11:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/theme-selection/signup-themes-list.jsx:12:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:4:1: Undeclared dependency on prop-types
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:5:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:6:1: Undeclared dependency on react-redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:7:1: Undeclared dependency on i18n-calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:8:1: Undeclared dependency on lodash
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:9:1: Undeclared dependency on classnames
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:14:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:19:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:20:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:21:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:22:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:28:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:29:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:30:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:31:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:32:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:33:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:34:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:35:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:36:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:37:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:38:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:39:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:40:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:41:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:42:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/index.jsx:43:1: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/test/index.jsx:4:1: Undeclared dependency on chai
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/test/index.jsx:5:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/validation-fieldset/test/index.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/test/index.jsx:4:1: Undeclared dependency on chai
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/test/index.jsx:5:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/test/index.jsx:6:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/wpcom-login-form/test/index.jsx:12:1: Undeclared dependency on @automattic/calypso-config
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/test/index.jsx:7:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/test/index.jsx:8:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans/test/index.jsx:14:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/test/index.jsx:12:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/test/index.jsx:13:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/plans-atomic-store/test/index.jsx:19:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/test/index.js:8:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-style/test/index.js:9:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:8:1: Undeclared dependency on chai
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:9:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:10:1: Undeclared dependency on react-dom
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:11:1: Undeclared dependency on react-dom
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:12:1: Undeclared dependency on sinon
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:22:48: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/user/test/index.js:23:49: Undeclared dependency on calypso
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/test/site-picker-submit.jsx:8:1: Undeclared dependency on enzyme
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/test/site-picker-submit.jsx:9:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/client/signup/steps/site-picker/test/site-picker-submit.jsx:15:1: Undeclared dependency on @automattic/calypso-products
+➤ YN0000: └ Completed in 0s 853ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/packages/accessible-focus/package.json
+➤ YN0000: └ Completed in 0s 305ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/packages/babel-plugin-i18n-calypso/package.json
+➤ YN0000: └ Completed in 0s 295ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/packages/babel-plugin-transform-wpcalypso-async/package.json
+➤ YN0000: └ Completed in 0s 284ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/packages/calypso-analytics/package.json
+➤ YN0000: └ Completed in 0s 315ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/packages/calypso-build/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-build/webpack.config.js:134:15: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-build/webpack/sass.js:25:7: Webpack configs from non-private packages should avoid referencing loaders without require.resolve
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-build/webpack/transpile.js:29:7: Webpack configs from non-private packages should avoid referencing loaders without require.resolve
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-build/webpack/util.js:116:17: Strings should avoid referencing the node_modules directory (prefer require.resolve)
+➤ YN0000: └ Completed in 5s 317ms
+
+➤ YN0000: ┌ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/package.json
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/combine-reducer-with-persistence/basic.js:1:1: Undeclared dependency on redux
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/combine-reducer-with-persistence/basic.js:6:1: Undeclared dependency on internal
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/combine-state-utils-imports/basic.js:1:1: Undeclared dependency on state
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/combine-state-utils-imports/basic.js:2:1: Undeclared dependency on state
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/i18n-mixin-to-localize/basic.js:1:1: Undeclared dependency on react
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/remove-create-reducer/create-reducer.js:2:1: Undeclared dependency on state
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/rename-combine-reducers/basic.js:1:1: Undeclared dependency on state
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/sort-imports/incorrect-docblocks.js:4:1: Undeclared dependency on chicken
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/sort-imports/incorrect-docblocks.js:5:1: Undeclared dependency on okapi-me
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/sort-imports/only-imports.js:2:1: Undeclared dependency on chicken
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/sort-imports/only-imports.js:3:1: Undeclared dependency on okapi-me
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/sort-imports/with-body.js:2:1: Undeclared dependency on chicken
+➤ YN0000: │ /Users/sergio/src/automattic/wp-calypso/packages/calypso-codemods/tests/sort-imports/with-body.js:3:1: Undeclared dependency on okapi-me

@@ -355,6 +355,7 @@ object BuildDockerImage : BuildType({
 
 	params {
 		text("base_image", "registry.a8c.com/calypso/base:latest", label = "Base docker image", description = "Base docker image", allowEmpty = false)
+		text("env.BUILDKIT_STEP_LOG_MAX_SIZE", "50000000", label = "Max log size for BuildKit", description = "Max log size for BuildKit", allowEmpty = false)
 	}
 
 	vcs {
@@ -410,7 +411,7 @@ object BuildDockerImage : BuildType({
 					--label com.a8c.build-id=%teamcity.build.id%
 					--build-arg workers=16
 					--build-arg node_memory=32768
-					--build-arg use_cache=true
+					--build-arg use_cache=false
 					--build-arg base_image=%base_image%
 				""".trimIndent().replace("\n"," ")
 			}
@@ -509,13 +510,15 @@ object RunAllUnitTests : BuildType({
 			executionMode = BuildStep.ExecutionMode.RUN_ON_FAILURE
 			scriptContent = """
 				# Duplicated packages
-				DUPLICATED_PACKAGES=${'$'}(npx yarn-deduplicate --list)
-				if [[ -n "${'$'}DUPLICATED_PACKAGES" ]]; then
+				if ! DUPLICATED_PACKAGES=${'$'}(
+					set +e
+					yarn dedupe --check
+				); then
 					echo "Repository contains duplicated packages: "
 					echo ""
 					echo "${'$'}DUPLICATED_PACKAGES"
 					echo ""
-					echo "To fix them, you need to checkout the branch, run 'npx yarn-deduplicate && yarn',"
+					echo "To fix them, you need to checkout the branch, run 'yarn dedupe',"
 					echo "verify that the new packages work and commit the changes in 'yarn.lock'."
 					exit 1
 				else
