@@ -18,7 +18,7 @@ export function generateFlows( {
 		{
 			name: 'account',
 			steps: [ 'user' ],
-			destination: '/',
+			destination: getRedirectDestination,
 			description: 'Create an account without a blog.',
 			lastModified: '2020-08-12',
 			pageTitle: translate( 'Create an account' ),
